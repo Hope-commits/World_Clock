@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>World Clock - Lethabo Thage</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js
+    "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js
+    "></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>World Clock</h1>
+      <select id="city">
+        <option value>Select a city...</option>
+        <option value="current">My Current Location</option>
+        <option value="Africa/Johannesburg">Cape Town</option>
+        <option value="America/New_York">New York</option>
+        <option value="Asia/Tokyo">Tokyo</option>
+        <option value="Africa/Lagos">Lagos</option>
+      </select>
+      <div id="cities">
+        <div class="city" id="Johannesburg">
+          <div>
+            <h2>Cape Town</h2>
+            <div class="date">January 19th 2025</div>
+          </div>
+          <div class="time">
+            1:48:15
+            <small>PM</small>
+          </div>
+        </div>
+        <div class="city" id="NewYork">
+          <div>
+            <h2>New York</h2>
+            <div class="date">January 19th 2025</div>
+          </div>
+          <div class="time">
+            1:48:15
+            <small>PM</small>
+          </div>
+        </div>
+        <div class="city" id="Tokyo">
+          <div>
+            <h2>Tokyo</h2>
+            <div class="date">January 19th 2025</div>
+          </div>
+          <div class="time">
+            1:48:15
+            <small>PM</small>
+          </div>
+        </div>
+      </div>
+      <footer>
+        This project was coded with ❤️ by <strong>Lethabo Thage</strong> and is
+        <a href="#" target="_blank">open sourced on GitHub</a>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
